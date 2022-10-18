@@ -68,6 +68,12 @@ namespace HelloWorld
             string battle = $"{hero} vs. {villian}";    
             
            Console.WriteLine(battle);
+
+            bool theHeroisVenom = true;
+            bool robinIsLame = true;
+            bool cottageCheeseIsDelicious = false;
+            Console.WriteLine(theHeroisVenom && robinIsLame);
+            Console.WriteLine(cottageCheeseIsDelicious);
             
        }
     }
