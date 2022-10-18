@@ -74,7 +74,21 @@ namespace HelloWorld
             bool cottageCheeseIsDelicious = false;
             Console.WriteLine(theHeroisVenom && robinIsLame);
             Console.WriteLine(cottageCheeseIsDelicious);
-            
+
+            int a = 34;
+            int b = 36;
+            if (b > a) ;
+            Console.WriteLine("b is greater than a");
+
+            int time = 16;
+            if (time <= 16)
+            {
+                Console.WriteLine("Good Day.");
+            }
+            else
+            {
+                Console.WriteLine("Good Evening.");
+            }        
        }
     }
 }
